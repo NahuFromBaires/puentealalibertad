@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap);
+
+
+#div1{background-color: #4F86C6;} /*Celeste*/
+#div2{background-color: #2A4494;} /*Dak cornflower Blue*/
+#div3{background-color: #07004D;} /*Midnight Blue*/
+#div4{background-color: #122C34;} /*Gunmetal*/
+#div5{background-color: #000000;} /*Black Coffee*/
+#div7{background-color: #F3dfbf;} /*Blanched Almond*/
+#div8{background-color: #42E2B8;} /*Medium Aquamarine*/
+#div9{background-color: #Eb8a90;} /*Light Coral*/
+
+#Nro_Nota{visibility: hidden;}
+
+*{  margin: 0px;
+    padding: 0px;
+    /*box-sizing: border-box;*/
+    font-family: 'Merriweather';
+    font-size: 2vh;
+    line-height: 2em;
+    text-align: justify;
+
+}
+
+
+/*CSS PARA PC*/
+@media screen and (min-width: 801px)
+{ 
+    body{background-color: #2A4494;display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+        
+        section{width: 70vw;background-color: #ffffff;margin-bottom: 2%;
+            align-self: center;display: flex;flex-direction: row;border-style: solid;border-radius: 2vw;border-width: 5px;border-color: #F3dfbf}
+
+            .contieneTexto{width: 100%;}
+
+                section figure{display: flex ;flex-direction: row;align-items: flex-start;justify-content: space-around;background-color: #Fafafa;border-top-left-radius:2vw;border-bottom-left-radius: 2vw ;}
+
+                    img{height: 20vh; width: 8vw;margin-top: 0px;margin: 0px 1vw 0px 1vw;margin-top: 2vh;}
+
+                section div{display: block; padding: 1%;height: auto;}
+
+                    .H-2{display: flex;align-items: center;height: 4vh;width: 100%;font-family: 'Oswald', sans-serif;color: #ffffff; 
+                        font-size: 2.5vh;font-weight: 400;background-color: #07004D;text-indent: 1vw; 
+                        letter-spacing: 0.05em; margin: 1vh 0px 1vh 0px;}
+
+                        .H-2-a{color: #ffffff;}
+                        
+                            .H-2-a:hover{color: #42E2B8 ;}
+
+                    .Comentarios{align-self: start;margin: 1%;}
+                    .pieDeFotoDos{align-self: start;margin: 1%;font-weight: bold;}
+                    
+                    section div a{text-decoration: none;margin: 1%;font-family: 'Oswald';font-size: 1.5vw;color: #07004D;}
+                        section div a:hover{color: #42E2B8;}
+
+
+                
+
+            
+        footer {position: relative ; bottom: 0; width: 100%; height: 2.5rem; float: right;color: #ffffff;text-align: center;}
+
+
+}
+
+
+/*Celu dado vuelta*/
+@media screen and (min-width: 551px) and (max-width: 800px) 
+{ 
+    body{background-color: #2A4494;display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+        
+        section{width: 90vw;background-color: #ffffff;margin-bottom: 2%;
+            align-self: center;display: flex;flex-direction: row;border-style: solid;border-radius: 2vw;border-width: 5px;border-color: #F3dfbf}
+
+            .contieneTexto{width: 100%;}
+
+                section figure{display: flex ;flex-direction: row;align-items: flex-start;justify-content: space-around;background-color: #Fafafa;border-top-left-radius:2vw;border-bottom-left-radius: 2vw ;}
+
+                    img{height: 20vh; width: 12vw;margin-top: 0px;margin: 0px 1vw 0px 1vw;margin-top: 2vh;}
+
+                section div{display: block; padding: 1%;height: auto;}
+
+                    .H-2{display: flex;align-items: center;height: 4vh;width: 100%;font-family: 'Oswald', sans-serif;color: #ffffff; 
+                        font-size: 2.5vh;font-weight: 400;background-color: #07004D;text-indent: 1vw; 
+                        letter-spacing: 0.05em; margin: 1vh 0px 1vh 0px;}
+
+                        .H-2-a{color: #ffffff;}
+                        
+                            .H-2-a:hover{color: #42E2B8 ;}
+
+                    .Comentarios{align-self: start;margin: 1%;}
+                    .pieDeFotoDos{align-self: start;margin: 1%;font-weight: bold;}
+                    
+                    section div a{text-decoration: none; /*Ver mas*/
+                        margin: 1%;font-family: 'Oswald';
+                        font-size: 3vh;color: #07004D;}
+
+                        section div a:hover{color: #42E2B8;}
+
+
+                
+
+            
+        footer {position: relative ; bottom: 0; width: 100%; height: 2.5rem; float: right;color: #ffffff;text-align: center;}
+
+
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 550px) 
+{
+  
+    body{display: flex;flex-direction: column;background-color: #2A4494;
+        align-items: center;justify-content: center;}
+    
+        section{height: auto; width: 90%;background-color: #ffffff;margin-bottom: 2%;
+            align-self: center;display: flex;flex-direction: column-reverse;border-style: solid;border-radius: 2vw;border-width: 1%;border-color: #F3dfbf}
+
+            section figure{display: flex ;align-items: center;justify-content: center;
+                background-color: #Fafafa;}
+        
+                img{height: 15vw; width: 10vw;margin-top: 0px;align-self: center;justify-content: center;margin-left: 1%;}
+
+                section div{display: inline-block; flex-wrap: wrap;padding: 1%;height: 25%;}
+
+                    .H-2{height: auto;font-family: 'Oswald', sans-serif;color: #ffffff; font-size: 2vh;
+                        font-weight: 400;text-align: center;border-radius: 3px;
+                        background-color: #07004D;text-indent: 1vw; 
+                        letter-spacing: 0.05em; margin: 1%;padding: 1%;line-height: 1.25em;}
+
+                    
+                        .H-2-a{color: #ffffff;}
+                        .H-2-a:hover{color: #42E2B8 ;}
+
+                    .Comentarios{align-self: start;margin: 1%;}
+                    .pieDeFotoDos{align-self: start;margin: 1% 1% 2% 1%;font-weight: bold;}
+                    
+                    section div a{text-decoration: none;margin: 1%;font-family: 'Oswald';font-size: 2.2vh;color: #Eb8a90;margin-top: 3px;}
+                        section div a:hover{color: #42E2B8;}
+
+
+            
+
+        
+        footer {position: relative ; bottom: 0; width: 100%; height: auto; float: right;color: #ffffff;text-align: center;}
+
+
+}

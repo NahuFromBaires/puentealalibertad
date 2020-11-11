@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap);
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 #div1{background-color: #4F86C6;} /*Celeste*/
 #div2{background-color: #2A4494;} /*Dak cornflower Blue*/
@@ -9,6 +8,8 @@
 #div7{background-color: #F3dfbf;} /*Blanched Almond*/
 #div8{background-color: #42E2B8;} /*Medium Aquamarine*/
 #div9{background-color: #Eb8a90;} /*Light Coral*/
+
+
 
 #Nro_Nota{visibility: hidden;}
 

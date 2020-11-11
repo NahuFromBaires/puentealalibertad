@@ -64,16 +64,19 @@ box-sizing: border-box;}
     body{background-color: #2A4494}
 
 
-    nav {padding: 0px;background-color: #42E2B8; margin: 0px;
-        position: fixed;top: 0px;z-index: 10; width: 100vw;display: none;}
-        nav img {width: 3vh; height: 6vw;display: none;}
+    nav {padding: 0px;margin: 0px 0px 0px 0px;
+        position: fixed;display: flex; top: 0px;z-index: 10;align-items: center; 
+        width: 100vw;height: 8vh;
+        background-color: #fafafa; border-bottom: #07004D;border-bottom-style: solid; border-bottom-width: 2px;}
+        nav a {color:#2A4494;font-weight: 500;text-decoration: none;}
+        nav img {width: 3vh; height: 6vw;margin: 0px 2% 0px 0px;}
 
     article{background-color: #ffffff; padding-left: 5%; padding-right: 5%;
-        border-radius: 10px;position: relative;margin: 2vh;}
+        border-radius: 10px;position: relative;margin: 10vh 2vh 2vh 2vh;}
 
         header{display: flex;justify-content: space-around;flex-direction: column;}
 
-            h1{height: 25px;font-family: 'Oswald', sans-serif;color: #ffffff; font-size: 14px;font-weight: 400;background-color: #07004D;letter-spacing: 0.05em; margin-bottom: 5px;margin-top: 1vh;text-align: center;}
+            h1{height: 25px;font-family: 'Oswald', sans-serif;color: #ffffff; font-size: 14px;font-weight: 400;background-color: #07004D;letter-spacing: 0.05em; margin-bottom: 5px;margin-top: 4vh;text-align: center;}
             
             .Imagen_Autor{height: 70%;width: 50%;display:block;padding-top: 5%;float: none;margin: auto;}
 

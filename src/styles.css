@@ -17,8 +17,11 @@ font-family: 'Oswald', sans-serif;*/
 /*GENERALES*/
 *{margin: 0px;
 padding: 0px;
-box-sizing: border-box;}
-#Nro_Nota{visibility: hidden;display: none;}
+box-sizing: border-box;
+font-size: 2.5vh;
+line-height: 2em;}
+
+#Nro_Nota{display: none;}
 
 
 /*CSS PARA PC*/
@@ -44,7 +47,7 @@ box-sizing: border-box;}
                 .pieDeFotoDos{width: 85%; font-family: 'Oswald', sans-serif;color: #4F86C6; font-size: 11px;font-weight: 500; 
                         margin-top: 2px;margin-bottom: 0px;margin-bottom: 10px;text-align: center; line-height: 15px}
 
-            .Comentarios{float: none ; font-family: 'Merriweather', serif; background-color: #F3dfbf; font-size: 13px;
+            .Comentarios{float: none ; font-family: 'Merriweather', serif; background-color: #F3dfbf; 
                 font-weight: 500; font-style: italic; margin-left: 22% ;margin-right: 0px; 
                 padding: 3%;border-radius: 10px;}
             
@@ -54,7 +57,7 @@ box-sizing: border-box;}
 
         h3{font-family: 'Merriweather', serif; background-color: #F3dfbf; font-size: 13px;font-weight: 500; font-style: italic;margin-left: 5%;margin-right: 5%;line-height: 25px; padding: 10px;border-radius: 10px;}
 
-        p{font-family: 'Merriweather', serif; color: #000000; font-size: 11px; text-align: justify;line-height: 25px}
+        p{font-family: 'Merriweather', serif; color: #000000; font-size: 13px; text-align: justify;line-height: 25px}
 
             em{color: #Eb8a90;font-weight: 500;}
  
@@ -72,13 +75,13 @@ box-sizing: border-box;}
 
     nav {padding: 0px;margin: 0px 0px 0px 0px;
         position: fixed;display: flex; top: 0px;z-index: 10;align-items: center; 
-        width: 100vw;height: 8vh;
+        width: 100vw;height: 10vh;
         background-color: #eaeaea; border-bottom: #07004D;border-bottom-style: solid; border-bottom-width: 2px;}
         nav a {color:#2A4494;font-weight: 400;text-decoration: none;font-family: 'Lato', sans-serif; font-weight: 500;}
-        nav img {width: 3vh; height: 6vw;margin: 0px 2% 0px 0px;}
+        nav img {width: 3vh; height: 4vw;margin: 0px 2vw 0px 2vw;}
 
     article{background-color: #ffffff; padding-left: 2%; padding-right: 2%;
-        border-radius: 10px;position: relative;margin: 9vh 3vh 2vh 3vh;}
+        border-radius: 10px;position: relative;margin: 12vh 3vh 2vh 3vh;}
 
         header{display: flex;justify-content: space-around;flex-direction: column;}
 
@@ -97,7 +100,7 @@ box-sizing: border-box;}
 
         h2{font-family: 'Oswald', sans-serif;color: #4F86C6; font-size: 18px;font-weight: 500; padding: 0px; margin-top: 2px;margin-bottom: 10px;float: none;text-align: center;}
 
-        p{font-family: 'Merriweather', serif; color: #000000; font-size: 11px; text-align: justify;line-height: 25px}
+        p{font-family: 'Merriweather', serif; color: #000000; font-size: 13px; text-align: justify;line-height: 25px}
 
             em{color: #Eb8a90;font-weight: 500;}
 
@@ -140,7 +143,7 @@ box-sizing: border-box;}
 
         h2{font-family: 'Oswald', sans-serif;color: #4F86C6; font-size: 18px;font-weight: 500; padding: 0px; margin-top: 2px;margin-bottom: 10px;float: none;text-align: center;}
 
-        p{font-family: 'Merriweather', serif; color: #000000; font-size: 11px; text-align: justify;line-height: 25px}
+        p{font-family: 'Merriweather', serif; color: #000000; font-size: 13px; text-align: justify;line-height: 25px}
 
             em{color: #Eb8a90;font-weight: 500;}
 

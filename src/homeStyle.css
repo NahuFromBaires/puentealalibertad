@@ -11,7 +11,10 @@
 
 
 
-#Nro_Nota{visibility: hidden;}
+#Nro_Nota{display: none;}
+#tituloEspera{display: none;}
+#espera{display: none;}
+body{display: flex !important} 
 
 *{  margin: 0px;
     padding: 0px;

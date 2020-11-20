@@ -135,3 +135,5 @@ let encabezados =
     Tematica:"Invocación a la Presencia",
     },
 ]
+
+module.exports = encabezados

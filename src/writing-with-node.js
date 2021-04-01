@@ -1,3 +1,5 @@
+function generarArticulos(){
+
 const fs = require('fs')
 const path = require('path')
 
@@ -29,3 +31,4 @@ for(let n=2;n<=encabezados.length;n+=1) //Arranca en el 2 porque el 1 ya está c
 
 }
 
+}

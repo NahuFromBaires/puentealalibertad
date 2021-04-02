@@ -10,13 +10,60 @@
 </HEAD>
 <BODY>
 	
-		<div class="container-fluid">
-			
-				<div id="Principal" class="col d-flex flex-column align-items-center justify-content-center ">
-						<h1 class="h3">Admin</h1>
+		<div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+			<div class="row text-center m-2">
+
+				<h1 class="h2">Admin</h1>
+				
+				<div id="Principal" class="col">
+						<h2 class="h3 mt-3">Generar Artículos</h2>
 						<button id="boton" type="button" class="btn btn-primary ma">Generar Articulos</button>
 				</div>
-			
+			</div>
+
+			<div class="row text-center m-2">
+				<div class="col">
+					<h2 class="h3 mt-3">Artículo Nuevo</h2>
+
+					<div class="form-group" id="ContenedorFormulario">
+						<form action="" name="generadorDeArticulos">
+							<label for="Titulo">Titulo</label>
+								<input type="text" name="Titulo" id="Titulo" class="form-control">
+
+								<label for="Autor">Autor</label>
+								<input type="text" name="Autor" id="Autor" class="form-control">
+
+								<label for="Notas">Notas</label>
+								<input type="text" name="Notas" id="Notas" class="form-control">
+
+								<label for="Origen">Origen</label>
+								<input type="text" name="Origen" id="Origen" class="form-control">
+
+								<label for="Mes">Mes</label>
+								<input type="text" name="Mes" id="Mes" class="form-control">
+
+								<label for="Anio">Año</label>
+								<input type="text" name="Anio" id="Anio" class="form-control"> 
+
+								<label for="ImagenAutor">Imagen del Autor</label>
+								<input type="text" name="ImagenAutor" id="ImagenAutor" class="form-control">
+
+								<label for="Texto">Texto del artículo:</label>
+								<textarea class="form-control" name="Texto" form="generadorDeArticulos" rows="4">Escribir aquí</textarea>
+								
+								<label for="Principal">Principal</label>
+								<input type="text" name="Principal" id="Principal" class="form-control">
+
+								<label for="Tematica">Temática</label>
+								<input type="text" name="Tematica" id="Tematica" class="form-control">
+						
+								<button id="boton" type="submit" class="btn btn-primary ma">Crear Artículo</button>
+
+						</form>
+					</div> <!-- Contenedor de formulario-->
+				</div><!-- Sección Articulo nuevo columna-->
+
+			</div><!-- Sección Articulo nuevo fila contenedora-->
 		</div>
 
 
